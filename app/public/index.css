@@ -1,0 +1,23 @@
+body {
+	font: 13px Helvetica, Arial;
+}
+form {
+	padding: 3px;
+	position: fixed;
+	bottom: 0;
+}
+
+
+#users {
+
+}
+
+#messages {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#messages li {
+	padding: 5px 10px;
+}

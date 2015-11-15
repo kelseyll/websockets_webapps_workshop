@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Talky Talk</title>
+	<link rel="stylesheet" type="text/css" href="skeleton.css">
+	<link rel="stylesheet" type="text/css" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div id="users" class="two columns">
+				<p>fluff that will be deleted
+					<br>
+					<br>
+					<br>but is nice to see spacing</p>
+			</div>
+			<input class="nine columns" type="text" placeholder="Search" id="exampleEmailInput">
+			<ul id="messages" class="eight columns">
+				<li>this is where messages go</li>
+			</ul>
+			<form class="eight columns">
+				<textarea class="nine columns" id="messageForm" placeholder="Say something!"></textarea>
+				<input class="button-primary" id="submitBtn" type="submit" value="Submit">
+			</form>
+			<div id="searchResults" class="four columns">
+				<p>This stuff is suppose to be on the right side... css y?
+					<br>
+					<br>
+					<br>but is nice to see spacing</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.socket.io/socket.io-1.3.7.js"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
