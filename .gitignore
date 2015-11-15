@@ -1,4 +1,2 @@
-app/node_modules
 app/npm-debug.log
-app/app.js
 app/public/index.js

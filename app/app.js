@@ -11,6 +11,7 @@ var http_server = http.Server(app); // allows get requests on our app endpoints
 var socketio = require('socket.io')
 var io = socketio(http_server);
 
+
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
 });
