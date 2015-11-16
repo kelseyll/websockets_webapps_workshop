@@ -7,15 +7,18 @@ li {
 }
 p {
 	margin: 8px 0;
+	font-weight: 200;
+	letter-spacing: 0.2px;
 }
 textarea {
 	resize: none;
 	overflow: hidden;
 }
 h2 {
+	margin: 0;
 	font-size: 2rem;
 	letter-spacing: 0.01px;
-	padding: 16px 0;
+	padding: 16px 0 8px 0;
 	font-weight: 400;
 }
 /*Account for no left margin on user-column*/
@@ -24,10 +27,15 @@ h2 {
 }
 .user-column {
 	padding: 0 16px;
+	background-color: #4D394B;
+	color: #fff;
+	height: 100vh;
+}
+.user-column p {
+	color: rgba(255,255,255,0.5);
 }
 .message-column {
 	height: 100vh;
-	background-color: red;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-end;
