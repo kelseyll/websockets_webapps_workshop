@@ -36,8 +36,15 @@ h2 {
 }
 .message-column {
 	height: 100vh;
+	/*flexbox webkits for firefox and safari*/
+	display: -webkit-flex;
+    display: -moz-flex;
 	display: flex;
+	-webkit-flex-direction:column;
+    -moz-flex-direction:column;
 	flex-direction: column;
+	-webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
 	justify-content: flex-end;
 }
 .search-column {
@@ -47,8 +54,8 @@ h2 {
 }
 .message-input-box {
 	padding: 0 8px;
-	justify-content: flex-end;
 }
+/*overflow textarea to overlap in search column*/
 .message-input-box .u-full-width {
 	width: 125%;
 }
