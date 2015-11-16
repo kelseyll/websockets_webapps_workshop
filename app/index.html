@@ -6,24 +6,26 @@
 	<link rel="stylesheet" type="text/css" href="skeleton.css">
 	<link rel="stylesheet" type="text/css" href="normalize.css">
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<link rel="stylesheet" type="text/css" href="custom.css">
+
+	<!-- Bomb Ass Slack Look-Alike Font -->
+	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 	<div class="container">
-		<div class="row">
-			<div>
-				<div id="users" class="two columns">
-					<p>User 1</p>
+			<div class="user-column two columns">
+				<div id="users">
+					<h2>Chat Room Demo</h2>
+					<p><img src="">User 1</p>
 					<p>User 2</p>
 				</div>
 			</div>
-			<div class="eight columns">
-				<input class="u-full-width" type="text" placeholder="Search" id="exampleEmailInput">
+		<div class="row">
+			<div class="message-column eight columns">
 				<ul id="messages">
 					<li>this is where messages go</li>
 				</ul>
-				<form>
+				<form class="message-input-box">
 					<div class="row">
 						<div class="twelve columns">
 							<textarea class="u-full-width" id="messageForm" placeholder="Say something!"></textarea>
@@ -32,7 +34,8 @@
 					</div>
 				</form>
 			</div>
-			<div class="two columns">
+			<div class="search-column two columns">
+				<input class="u-full-width" type="text" placeholder="Search" id="exampleEmailInput">
 				<div id="searchResults">
 					<p>This stuff is suppose to be on the right side... css y?
 						<br>

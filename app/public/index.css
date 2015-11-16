@@ -1,23 +1,42 @@
 body {
-	font: 13px Helvetica, Arial;
+	font-family: 'Lato', sans-serif;
 }
-form {
-	padding: 3px;
-	position: fixed;
-	bottom: 0;
-}
-
-
-#users {
-
-}
-
-#messages {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-
-#messages li {
+li {
+ 	list-style-type: none;
 	padding: 5px 10px;
+}
+p {
+	margin: 8px 0;
+}
+textarea {
+	resize: none;
+	overflow: hidden;
+}
+h2 {
+	font-size: 2rem;
+	letter-spacing: 0.01px;
+	padding: 16px 0;
+	font-weight: 400;
+}
+/*Account for no left margin on user-column*/
+.two.columns {
+	width: 17%;
+}
+.user-column {
+	padding: 0 16px;
+}
+.message-column {
+	height: 100vh;
+	background-color: red;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+.search-column {
+	padding: 16px;
+	margin-left: 0;
+	margin-right: 0;
+}
+.message-input-box {
+	justify-content: flex-end;
 }
