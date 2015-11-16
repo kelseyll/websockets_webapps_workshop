@@ -46,5 +46,9 @@ h2 {
 	margin-right: 0;
 }
 .message-input-box {
+	padding: 0 8px;
 	justify-content: flex-end;
+}
+.message-input-box .u-full-width {
+	width: 125%;
 }
